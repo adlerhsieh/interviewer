@@ -1,0 +1,20 @@
+# This is where we add our interview qujestioln. Each question will compose of 3 parts: 
+#
+# - question: a short question displayed after the content. It's the direct
+#             question that users are answering.
+# - answer: the correct answer for the question.
+# - content: a filename. It's the file that the program will read from and display
+#            to the users. It will read from question/files directory.
+#
+# Example:
+#
+# - question: What the expected output of variable "x"?
+#   answer: 4
+#   content: foo.go
+#
+- question: foo?
+  answer: bar
+  content: x.go
+- question: x?
+  answer: y
+  content: y.go
